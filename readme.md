@@ -84,8 +84,8 @@
 
 ```powershell
 # 把 ocr.dll 和 ocr.py 放在同一目录，以下任选其一：
-python ocr.py captcha.png
-python ocr.py captcha.png --dll ocr.dll
+- python ocr.py captcha.png
+- python ocr.py captcha.png --dll ocr.dll
 
 # 如果你的 DLL 是 32 位，请用 32 位 Python；不确定就先查：
 # dumpbin /headers ocr.dll  或者  sigcheck ocr.dll
