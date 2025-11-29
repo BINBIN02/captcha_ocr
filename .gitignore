@@ -1,0 +1,17 @@
+# Byte-compiled / cache / logs
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local scripts not for sharing
+main.py
+
+# Keep test image and DLL
+# captcha.png and ocr.dll should be included
